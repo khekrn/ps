@@ -1,6 +1,9 @@
 package array
 
 /**
+ * Remove Duplicates From Sorted Array
+ * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ *
  * Given an integer array nums sorted in non-decreasing order, remove the
  * duplicates in-place such that each unique element appears only once.
  * The relative order of the elements should be kept the same.
@@ -27,6 +30,9 @@ func RemoveDuplicates(nums []int) int {
 }
 
 /*
+ * Remove Element
+ * https://leetcode.com/problems/remove-element/
+ *
  * Given an integer array nums and an integer val, remove all occurrences of
  * val in nums in-place. The order of the elements may be changed. Then
  * return the number of elements in nums which are not equal to val.
