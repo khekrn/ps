@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	arr := []int{1, 3, 2, 1}
-	fmt.Println(array.GetConcatenation(arr))
+	arr := []string{"1", "C"}
+	fmt.Println(array.CalPoints(arr))
 }
