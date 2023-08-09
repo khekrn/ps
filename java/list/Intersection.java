@@ -50,16 +50,6 @@ class ListNode {
         val = x;
         next = null;
     }
-
-    public int hashCode(){
-        return Objects.hash(val);
-    }
-
-    public boolean equals(Object other){
-        var node = (ListNode)other;
-        return val == node.val;
-    }
-    
 }
 
 public class Intersection {
@@ -70,9 +60,6 @@ public class Intersection {
         var aPointer = headA;
         var bPointer = headB;
         while(aPointer != bPointer){
-            if(aPointer != null &&  bPointer != null && aPointer.val == bPointer.val) {
-                System.out.println("Match");
-            }
             if(aPointer == null){
                 aPointer = headB;
             }else{
