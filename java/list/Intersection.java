@@ -1,7 +1,5 @@
 package list;
 
-import java.util.Objects;
-
 /**
  * Intersection of Two Linked Lists
  *
